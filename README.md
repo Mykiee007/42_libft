@@ -48,7 +48,7 @@ make bonus
 
 After compiling, include the library in your C program:
 ```bash
-gcc main.c libft.a
+cc -Wall -Wextra -Werror main.c libft.a
 ```
 
 And in your source files:
@@ -62,46 +62,57 @@ Libft contains re-implemented standard C functions + additional utilities.
 
 ### Part 1 — Libc Functions
 
-Character checks:
+Character checks
 - ft_isalpha
 - ft_isdigit
 - ft_isalnum
 - ft_isascii
 - ft_isprint
 
-String manipulation:
+Character case
+- ft_toupper
+- ft_tolower
+
+String length & copy
 - ft_strlen
 - ft_strlcpy
 - ft_strlcat
-- ft_strdup
-- ft_strchr,
+
+Memory manipulation
+- ft_memset
+- ft_bzero
+- ft_memcpy
+- ft_memmove
+- ft_memchr
+- ft_memcmp
+
+String search / compare
+- ft_strchr
 - ft_strrchr
 - ft_strncmp
 - ft_strnstr
 
-Memory handling:
-- ft_memset
-- ft_bzero
-- ft_memcpy
-- ft_memmove,
-- ft_memchr
-- ft_memcmp
-- ft_calloc
-
-Conversions:
+Conversion
 - ft_atoi
-- ft_tolower
-- ft_toupper
+
+Memory allocation / duplication
+- ft_calloc
+- ft_strdup
 
 ### Part 2 — Additional Functions
 
+String creation & transformation
 - ft_substr
 - ft_strjoin
 - ft_strtrim
-- ft_split,
-- ft_itoa
+- ft_split
 - ft_strmapi
-- ft_striteri,
+- ft_striteri
+
+Number ↔ string
+- ft_itoa
+
+File descriptor output
 - ft_putchar_fd
 - ft_putstr_fd
 - ft_putendl_fd

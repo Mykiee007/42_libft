@@ -46,7 +46,8 @@ If bonus functions are included:
 make bonus
 ```
 
-After compiling, include the library in your C program:
+If you want to compile a main.c that uses libft,
+place your main.c in the same directory where libft.a and libft.h are located.
 ```bash
 cc -Wall -Wextra -Werror main.c libft.a
 ```

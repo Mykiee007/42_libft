@@ -122,15 +122,15 @@ File descriptor output
 ### Bonus (if enabled)
 
 Linked list utilities using t_list:
-- ft_lstnew
-- ft_lstadd_front
-- ft_lstsize
-- ft_lstlast
-- ft_lstadd_back
-- ft_lstdelone
-- ft_lstclear
-- ft_lstiter
-- ft_lstmap
+- ft_lstnew - Returns a new node.
+- ft_lstadd_front - Adds the node ’new’ at the beginning of the list.
+- ft_lstsize - Counts the number of nodes in the list.
+- ft_lstlast - Returns the last node of the list.
+- ft_lstadd_back - Adds the node ’new’ at the end of the list.
+- ft_lstdelone - Takes a node as parameter and frees its content using the function ’del’. 
+- ft_lstclear - Deletes and frees the given node and all its successors, using the function ’del’ and free(3).
+- ft_lstiter - Iterates through the list ’lst’ and applies the function ’f’ to the content of each node.
+- ft_lstmap - Iterates through the list ’lst’, applies the function ’f’ to each node’s content, and creates a new list resulting of the successive applications of the function ’f’.
 
 ## Resources
 

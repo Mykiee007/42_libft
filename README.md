@@ -41,11 +41,6 @@ To recompile from scratch:
 make re
 ```
 
-If bonus functions are included:
-```bash
-make bonus
-```
-
 If you want to compile a main.c that uses libft,
 place your main.c in the same directory where libft.a and libft.h are located.
 ```bash
@@ -55,6 +50,8 @@ cc -Wall -Wextra -Werror main.c libft.a
 And in your source files:
 ```bash
 #include "libft.h"
+#include "ft_printf.h"
+#include "get_next_line.h"
 ```
 
 ## Library Overview

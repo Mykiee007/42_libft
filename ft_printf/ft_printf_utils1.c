@@ -6,11 +6,12 @@
 /*   By: mvelasqu <mvelasqu@student.42singapore.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/18 11:51:23 by mvelasqu          #+#    #+#             */
-/*   Updated: 2025/12/18 11:59:25 by mvelasqu         ###   ########.fr       */
+/*   Updated: 2025/12/22 10:53:38 by mvelasqu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
+//#include "libft.h"
 
 int	ft_putchar(int c)
 {
@@ -65,20 +66,3 @@ int	ft_putunsigned(unsigned int a)
 	count += ft_putchar ((a % 10) + '0');
 	return (count);
 }
-
-char	*ft_strchr(const char *s, int c)
-{
-	int	i;
-
-	i = 0;
-	while (s[i] != '\0')
-	{
-		if (s[i] == (char)c)
-			return ((char *)&s[i]);
-		i++;
-	}
-	if (s[i] == (char)c)
-		return ((char *)&s[i]);
-	return (0);
-}
-

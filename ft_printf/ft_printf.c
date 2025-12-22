@@ -6,11 +6,12 @@
 /*   By: mvelasqu <mvelasqu@student.42singapore.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/04 10:14:33 by mvelasqu          #+#    #+#             */
-/*   Updated: 2025/12/18 11:58:51 by mvelasqu         ###   ########.fr       */
+/*   Updated: 2025/12/22 10:53:40 by mvelasqu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
+//#include "libft.h"
 #include <stdarg.h>
 
 static void	ft_specifer(va_list *args, char const *s, int *i, int *count)

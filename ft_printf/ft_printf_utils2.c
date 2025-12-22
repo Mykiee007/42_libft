@@ -6,11 +6,12 @@
 /*   By: mvelasqu <mvelasqu@student.42singapore.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/18 11:54:22 by mvelasqu          #+#    #+#             */
-/*   Updated: 2025/12/18 11:59:35 by mvelasqu         ###   ########.fr       */
+/*   Updated: 2025/12/22 10:53:37 by mvelasqu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
+//#include "libft.h"
 
 int	ft_puthexlower(unsigned int a)
 {

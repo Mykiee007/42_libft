@@ -132,6 +132,18 @@ Linked list utilities using t_list:
 - ft_lstiter - Iterates through the list ’lst’ and applies the function ’f’ to the content of each node.
 - ft_lstmap - Iterates through the list ’lst’, applies the function ’f’ to each node’s content, and creates a new list resulting of the successive applications of the function ’f’.
 
+### ft_printf
+
+A custom implementation of the standard printf function.
+
+ft_printf – Prints formatted output to standard output, supporting flags, width, precision, and specifiers such as %c, %s, %d, %i, %u, %x, %X, %p, and %%
+
+### get_next_line
+
+A function that reads input line by line from a file descriptor.
+
+get_next_line – Reads and returns one line at a time from a file descriptor, handling buffering internally and preserving leftover data between calls
+
 ## Resources
 
 - Classic references used for this project:

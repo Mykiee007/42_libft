@@ -6,12 +6,11 @@
 /*   By: mvelasqu <mvelasqu@student.42singapore.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/09 09:55:47 by mvelasqu          #+#    #+#             */
-/*   Updated: 2025/12/22 11:00:50 by mvelasqu         ###   ########.fr       */
+/*   Updated: 2026/02/26 15:06:19 by mvelasqu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
-//#include "libft.h"
 
 char	*ft_extract_rest(const char *s, int c)
 {

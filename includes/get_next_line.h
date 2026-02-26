@@ -6,7 +6,7 @@
 /*   By: mvelasqu <mvelasqu@student.42singapore.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/09 09:56:57 by mvelasqu          #+#    #+#             */
-/*   Updated: 2025/12/22 11:01:01 by mvelasqu         ###   ########.fr       */
+/*   Updated: 2026/02/26 15:05:58 by mvelasqu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,8 @@
 # define GET_NEXT_LINE_H
 
 # include <stdlib.h>
-# include <stdint.h>
-# include <stdio.h>
-# include <fcntl.h>
 # include <unistd.h>
+# include "libft.h"
 
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 4

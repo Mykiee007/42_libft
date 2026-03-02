@@ -104,6 +104,7 @@ String creation & transformation
 - ft_strjoin
 - ft_strtrim
 - ft_split
+- ft_free_split
 - ft_strmapi
 - ft_striteri
 

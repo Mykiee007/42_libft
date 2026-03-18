@@ -6,7 +6,7 @@
 /*   By: mvelasqu <mvelasqu@student.42singapore.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/09 09:55:47 by mvelasqu          #+#    #+#             */
-/*   Updated: 2026/02/26 15:06:19 by mvelasqu         ###   ########.fr       */
+/*   Updated: 2026/03/18 13:16:07 by mvelasqu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,18 +91,18 @@ char	*ft_getstring(int fd, char *stash, int fnd)
 	return (free (buf), stash);
 }
 
-void	*ft_getstring_ext(char *stash, char *buf)
+char	*ft_getstring_ext(char *stash, char *buf)
 {
 	char		*new_stash;
 
-	new_stash = ft_strjoin(stash, buf);
+	new_stash = ft_strjoin_gnl(stash, buf);
 	free(stash);
 	return (new_stash);
 }
 
 char	*get_next_line(size_t fd)
 {
-	static char	*stash[1000];
+	static char	*stash[1024];
 	char		*string;
 	char		*line;
 	char		*leftover;
